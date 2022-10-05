@@ -28,8 +28,8 @@ Here I present modified version of my solution adapted to process MRI (Magnetic 
 
 ### The repository contains:
 
-1. save_square_fragm function code as .py,
-2. save_square_fragm function code with description and results presentation,
+1. save_square_fragm function code, as .py,
+2. save_square_fragm function code with description and results presentation, as jupyter notebook,
 3. sample data in bumblebeeMRI folder (MRI images of a bumblebee fixed in glutaraldehyde solution. The imaging was performed on a 9.4 T MRI scanner),
 4. sample output in square_fragm folder.
     
