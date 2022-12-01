@@ -1,6 +1,7 @@
 # square_img_fragments
 The save_square_fragm function saves random unique square fragments of an image (located inside or outside defined bounding box) as jpg.
 
+## The task
 This little project is inspired by a recruitment task of a company that wished to remain anonymous. The task was to:
 
 1. write a code that saves a specified number of random unique square fragments of a given image.
@@ -24,12 +25,13 @@ Here I present modified version of my solution adapted to process MRI (Magnetic 
 2. can be easily modified to work on any image format,
 3. allows for optional visual verification of the image with overlaid bounding box.
 
-
-
-### The repository contains:
+## The repository contains:
 
 1. save_square_fragm function code, as .py,
 2. save_square_fragm function code with description and results presentation, as jupyter notebook,
 3. sample data in bumblebeeMRI folder - FDF images (MRI images of a bumblebee fixed in glutaraldehyde solution. The imaging was performed on a 9.4 T Agilent MRI scanner),
 4. sample output in square_fragm folder.
     
+## License
+
+The software is licensed under the MIT license. The non-software content of this project is licensed under the Creative Commons Attribution 4.0 International license. See the LICENSE file for license rights and limitations.
