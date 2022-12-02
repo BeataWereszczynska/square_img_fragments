@@ -1,5 +1,5 @@
 # square_img_fragments
-The save_square_fragm function saves random unique square fragments of an image (located inside or outside defined bounding box) as jpg.
+Saving random unique square fragments of an image (located inside or outside defined bounding box) as jpg.
 
 ## The task
 This little project is inspired by a recruitment task of a company that wished to remain anonymous. The task was to:
