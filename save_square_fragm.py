@@ -34,7 +34,8 @@ def save_square_fragm(img_path, bb, vv, N, a, inner, out_folder):
     del img_path
     
     # Image and bounding box visual veryfication
-    if vv:        
+    if vv:
+        plt.rcParams['figure.dpi'] = 200
         figure, image = plt.subplots()
         image.imshow(img, cmap=plt.get_cmap('gray'))
         w = bb[1][0] - bb[0][0]
@@ -42,7 +43,6 @@ def save_square_fragm(img_path, bb, vv, N, a, inner, out_folder):
         bb_rect = Rectangle(bb[0], w, h, linewidth=0.5, edgecolor='cyan', facecolor='none')
         image.add_patch(bb_rect)
         plt.title("Image and bounding box - visual veryfication")
-        plt.rcParams['figure.dpi'] = 200
         plt.show()
     del vv
         
