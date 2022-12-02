@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-save_square_fragm function
+Saves random unique square fragments of FDF image (located inside or outside defined bounding box) as jpg.
 
 @author: Beata Wereszczyńska
 """
@@ -31,6 +31,7 @@ def save_square_fragm(img_path, bb, vv, N, a, inner, out_folder):
     imageio = itk.FDFImageIO.New()
     img = itk.imread(img_path, imageio=imageio)
     img = np.array(img)
+    del img_path
     
     # Image and bounding box visual veryfication
     if vv:        
@@ -43,10 +44,8 @@ def save_square_fragm(img_path, bb, vv, N, a, inner, out_folder):
         plt.title("Image and bounding box - visual veryfication")
         plt.rcParams['figure.dpi'] = 200
         plt.show()
+    del vv
         
-    else:
-        pass
-    
     # length of the side of the square fragments must be smaller than the bounding box 
     if min([bb[1][0] - bb[0][0], bb[0][1] - bb[1][1]]) >= a:
         
