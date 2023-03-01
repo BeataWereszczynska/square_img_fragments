@@ -27,11 +27,11 @@ Here I present modified version of my solution, adapted to process MRI (Magnetic
 
 ## The repository contains:
 
-1. Python script save_square_fragm.py with the code,
-2. The code with description and sample results, as jupyter notebook file notebook_save_square_fragm.ipynb,
-3. sample data in bumblebeeMRI folder - FDF images (MRI images of a bumblebee fixed in glutaraldehyde solution. The imaging was performed on a 9.4 T Agilent MRI scanner),
-4. sample output in square_fragm folder.
+1. Python script **save_square_fragm.py** with the code,
+2. The code with description and sample results, as jupyter notebook file **notebook_save_square_fragm.ipynb**,
+3. sample data in **bumblebeeMRI** folder - FDF images (MRI images of a bumblebee fixed in glutaraldehyde solution. The imaging was performed on a 9.4 T Agilent MRI scanner),
+4. sample output in **square_fragm** folder.
     
 ## License
 
-The software is licensed under the MIT license. The non-software content of this project is licensed under the Creative Commons Attribution 4.0 International license. See the LICENSE file for license rights and limitations.
+The software is licensed under the **MIT license**. The non-software content of this project is licensed under the **Creative Commons Attribution 4.0 International license**. See the LICENSE file for license rights and limitations.
